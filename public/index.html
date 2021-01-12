@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+</head>
+<body>
+    
+<form onsubmit="return signfu()">
+Name :
+<br>
+<input type="text" id="name" placeholder="Enter your Name">
+<br>
+<br>
+Phone No :
+<br>
+<input type="text" id="Phone" placeholder="021-11111111">
+<br>
+<br>
+Gender :
+<select name="Gender" id="gender">
+    <option value="Male">Male</option>
+    <option value="Female">Female</option>
+</select>
+Nationality :
+<br>
+<input type="text" id="nationality">
+<br>
+<br>
+Email :
+<br>
+<input type="email" id="email" placeholder="abc@gmail.com">
+Password:
+<br>
+<input type="password" id="password" placeholder="********">
+<br>
+<br>
+
+<button>Signup</button>
+
+</form>
+<br>
+    <p>Already Have An Account?<a href="./login.html">Login</a> </p>
+    <br>
+    <span id="result"></span>
+
+    </div>
+<script src="app.js"></script>
+</body>
+</html>
